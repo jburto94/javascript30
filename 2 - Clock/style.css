@@ -37,13 +37,25 @@ body {
 }
 
 .hand {
-	width: 50%;
-	height: 6px;
+	width: 6px;
+	height: 50%;
 	position: absolute;
-	top: 50%;
-	background: black;
-	transform-origin: 100%;
-	transform: rotate(90deg);
-	transition: all 0.05s;
+	top: 0;
+	right: 50%;
+	background-color: black;
+	border-radius: 5px;
+	transform-origin: 0 100%;
+	transition: all 0.01s;
 	transition-timing-function: cubic-bezier(0.1, 2.0. 0.5, 1);
+}
+
+.hour-hand {
+	height: 30%;
+	position: absolute;
+	top: 20%;
+}
+
+.second-hand {
+	background-color: #ED5A5A;
+	width: 4px;
 }

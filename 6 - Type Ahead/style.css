@@ -1,0 +1,38 @@
+*, *:after, *:before {
+	box-sizing: border-box;
+}
+
+body {
+	background: #2850a8;
+	display: flex;
+	justify-content: center;
+	font-family: Arial;
+}
+
+.search-form {
+	margin-top: 50px;
+	background: #ccc;
+	width: 50%;
+}
+
+.search-form > * {
+	width: 100%;
+}
+
+.search {
+	padding: 15px;
+}
+
+.suggestions {
+	list-style-type: none;
+	margin: 0;
+	padding: 10px 0 0 0;
+}
+
+.suggestions li {
+	padding: 15px;
+}
+
+.hl {
+	background: #2850a8;
+}

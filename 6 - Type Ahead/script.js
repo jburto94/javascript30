@@ -28,7 +28,6 @@ function displayMatches() {
 				<span class='name'>${cityName}, ${stateName}</span>
 				<span class='population'>${largeNumbers(place.population)}</span>
 			</li>
-			<hr>
 		`;
 	}).join('');
 	suggestions.innerHTML = html;

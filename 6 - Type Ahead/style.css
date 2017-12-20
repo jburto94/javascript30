@@ -12,7 +12,7 @@ body {
 .search-form {
 	margin-top: 50px;
 	background: #ccc;
-	width: 50%;
+	width: 500px;
 }
 
 .search-form > * {
@@ -26,13 +26,24 @@ body {
 .suggestions {
 	list-style-type: none;
 	margin: 0;
-	padding: 10px 0 0 0;
+	padding: 0px;
 }
 
 .suggestions li {
-	padding: 15px;
+	padding: 15px 30px 15px 15px;
+	float: left;
+	border-bottom: 1px solid rgba(0,0,0,0.2);
+	width: 100%;
+}
+
+.name {
+	float: left;
+}
+
+.population {
+	float: right;
 }
 
 .hl {
-	background: #2850a8;
+	background: rgba(40, 80, 168, 0.8);
 }
